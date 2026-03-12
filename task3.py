@@ -1,7 +1,7 @@
 guard_awake = False
-if not guard_awake:
-    outcome = "Shadow: Quick he's asleep lets sneak past!"
-else:
+if guard_awake:
     outcome = "Doom: Oh no hes awake, RUN!"
+else:
+    outcome = "Shadow: Quick he's asleep lets sneak past!"
 
 print(outcome)
